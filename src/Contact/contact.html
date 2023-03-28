@@ -11,6 +11,7 @@
     <nav class="navbar">
       <img
         src="https://cdn.iconscout.com/icon/premium/png-512-thumb/building-2816550-2338428.png?f=avif&w=256"
+        loading="'lazy" 
         alt=""
         srcset=""
       />
@@ -28,6 +29,39 @@
         </li>
       </ul>
     </nav>
-    <h2>Contact Us</h2>
+    <div class="contact_section">
+      <div class="contact_content">
+        <h1>Contact Us</h1>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cards">
+          <img src='/public/contact.jpg' loading="'lazy"  alt="contact_us">
+        </div>
+      <div class="cards">
+          <form id="form">
+              <label class="label" for="fname">First Name</label>
+              <input class="inputType" type="text" id="fname" name="fname" required placeholder="First Name">
+              <label class="label" for="lname">Last Name</label>
+              <input class="inputType" type="text" id="lname" name="lname" required placeholder="Last Name">
+              <label class="label" for="email">Email Id</label>
+              <input class="inputType" type="email" id="lname" name="email" required placeholder="Mail Id" mailto:value="shaikhmohdnoman612@gmail.com">
+              <label class="label" for="email">Message</label>
+              <input class="inputType" type="text" id="message" name="message" required placeholder="Your message here ...">
+              <button id="btn" type="submit">SEND</button>
+            </form>     
+      </div>
+  </div>
+  <div class="button_to_top">
+    <a href="#">Top</a>
+  </div>
+  <footer class="foot">
+    <ul class="footer_items">
+      <li class="list_items">Home</li>
+      <li class="list_items">About</li>
+      <li class="list_items">Contact</li>
+    </ul>
+    <h6 class="foot_data">&copy; All rights reserved</h6>
+  </footer>
   </body>
 </html>

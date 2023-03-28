@@ -26,6 +26,7 @@ body {
 .navbar_items > li > a {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 .navbar_items > li:hover {
   background-color: #547474;
